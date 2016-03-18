@@ -16,7 +16,9 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-
+.text-color-blue {
+	color:#337ab7;
+}
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -171,10 +173,17 @@ hr.small {
     padding: 50px 0;
 }
 
+/* Sponsors */
+#sponsors {
+    /*padding: 50px 0;*/
+	font-family: 'Comfortaa', cursive;
+}
+
 /* Services */
 
 .services {
     padding: 50px 0;
+	font-family: 'Comfortaa', cursive;
 }
 
 .services a {
