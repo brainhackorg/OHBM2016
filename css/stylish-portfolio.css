@@ -21,7 +21,7 @@ body {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    color:linen;
+    color:white;
     font-family: 'Comfortaa', cursive;
 }
 
@@ -182,7 +182,7 @@ hr.small {
 }
 
 .services a:focus, a:hover {
-    color: white;
+    /*color: white;*/
     text-decoration: underline;
 }
 
@@ -282,6 +282,11 @@ a {
 }
 
 a:focus, a:hover {
-    color: #337ab7;
+    /*color: #337ab7;*/
     text-decoration: underline;
+}
+
+#ohbm_logo {
+	width: 100%;
+	vertical-align: center;
 }
