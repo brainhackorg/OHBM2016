@@ -195,25 +195,25 @@
 				<div class="col-lg-12 text-center">
 				    <br><h3 class="text-color-blue"><strong>Generously Sponsored By:</strong></h3><br><br>
 			    </div>
+			</div>
+			<div class="row no-gutter">
 			    <div class="col-lg-10 col-lg-offset-1" >
                     <div class="col-lg-6">
-                        <a href="http://mcin-cnim.ca/research/" target="_blank"><img src="img/ludmer-center.png" class="img-responsive" alt="Prater"></a>
+                        <a href="http://mcin-cnim.ca/research/" target="_blank"><img src="img/ludmer-center.png" class="img-responsive" alt="Ludmer Center for Neuroinformatics and Mental Health" id="ohbm_logo"></a>
                     </div>
                     <div class="col-lg-6">
-                        <a href="http://www.humanbrainmapping.org/" target="_blank"><img src="img/ohbm.jpg" class="img-responsive" id="ohbm_logo" alt="Brainhack"></a>
+                        <a href="https://www.humanbrainmapping.org/" target="_blank"><img src="img/ohbm.jpg" class="img-responsive" id="ohbm_logo" alt="Human Brain Mapping"></a>
                     </div>
-                <!-- <div class="col-lg-6 col-sm-6">
-                    <img src="img/ludmer-center.png" class="img-responsive" alt="Belvedere">
-                </div>
-                <div class="col-lg-6 col-sm-6">
-                    <img src="img/ludmer-center.png" class="img-responsive" alt="Brain Art Competition">
-                </div>
-                <div class="col-lg-6 col-sm-6">
-                    <img src="img/ludmer-center.png" class="img-responsive" alt="Vienna">
-                </div>
-                <div class="col-lg-6 col-sm-6">
-                    <img src="img/ludmer-center.png" class="img-responsive" alt="Brain Art Competition">
-                </div> -->
+			    </div>
+			</div>
+			<div class="row no-gutter top30">
+				<div class="col-lg-10 col-lg-offset-1" >
+                    <div class="col-lg-4 col-lg-offset-1">
+                        <a href="https://openfmri.org" target="_blank"><img src="img/openfmri.png" class="img-responsive" alt="OpenfMRI" id="ohbm_logo"></a>
+                    </div>
+                    <div class="col-lg-6 col-lg-offset-1">
+                        <a href="http://www.wellcome.ac.uk/" target="_blank"><img src="img/wellcome.jpg" class="img-responsive" id="ohbm_logo" alt="Wellcome Trust"></a>
+                    </div>
 				</div>
             </div>
 			<br><br>
@@ -281,6 +281,15 @@
             }
         });
     });
+	
+	$('.map').click(function () {
+	    $('.map iframe').css("pointer-events", "auto");
+	});
+
+	$( ".map" ).mouseleave(function() {
+	  $('.map iframe').css("pointer-events", "none"); 
+	});
+	
     </script>
 
 </body>
